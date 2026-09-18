@@ -236,22 +236,33 @@ h1 {
 
 /* ----- Music View ----- */
 
+.inner-music-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .music-box {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.25rem;
 }
 
 .music-icon {
   width: 60px;
 }
 
-.music-icon:hover {
+.music-service:hover {
   opacity: 0.6;
 }
 
 .music-service {
   font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 
